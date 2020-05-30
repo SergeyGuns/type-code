@@ -1,0 +1,7 @@
+.LeftPanel {
+  padding: 5px 10px;
+  height: 100%;
+  text-align: left;
+  width: 200px;
+  border-right: solid 2px rgba(255,255,255,.3)
+}
