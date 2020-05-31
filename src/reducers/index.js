@@ -1,27 +1,11 @@
-import { createSlice, combineReducers } from "@reduxjs/toolkit";
+import { combineReducers } from "@reduxjs/toolkit";
 import { createStore } from "redux";
 import { SET_ACTIVE_FILE, SET_FILES } from "../constants";
+import start1 from "../tmp-projects/start-1.json";
+
 const initialState = {
   activeFile: null,
-  files: [
-    {
-      name: "src",
-      isOpen: true,
-      children: [
-        {
-          name: "index.js",
-        },
-        {
-          name: "styles",
-          isOpen: false,
-          children: [{ name: "main.css" }],
-        },
-      ],
-    },
-    {
-      name: "package.json",
-    },
-  ],
+  files: start1,
 };
 
 const appReducer = (state = initialState, action) => {

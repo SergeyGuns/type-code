@@ -1,0 +1,7 @@
+.ContentPanelTab {
+  border: solid 1px rgb(204, 204, 204);
+  border-width: 1px 1px 0px 1px;
+  border-radius: 5px 5px 0px 0px;
+  padding: 5px 10px;
+  user-select: none;
+}

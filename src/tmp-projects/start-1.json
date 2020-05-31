@@ -1,0 +1,21 @@
+[
+  {
+    "name": "src",
+    "isOpen": true,
+    "children": [
+      {
+        "name": "index.js",
+        "body": "import React from \"react\""
+      },
+      {
+        "name": "styles",
+        "isOpen": false,
+        "children": [{ "name": "main.css","body": ".app {}" }]
+      }
+    ]
+  },
+  {
+    "name": "package.json",
+    "body": "{\n\"name\": \"type-code\",\n\"version\": \"0.1.0\",\n\"private\": true,\n\"dependencies\": {\n  \"@reduxjs/toolkit\": \"^1.3.6\",\n  \"@testing-library/jest-dom\": \"^4.2.4\",\n  \"@testing-library/react\": \"^9.3.2\",\n  \"@testing-library/user-event\": \"^7.1.2\",\n  \"react\": \"^16.13.1\",\n  \"react-dom\": \"^16.13.1\",\n  \"react-redux\": \"^7.2.0\",\n  \"react-scripts\": \"3.4.1\",\n  \"redux\": \"^4.0.5\"\n},\n\"scripts\": {\n  \"start\": \"react-scripts start\",\n  \"build\": \"react-scripts build\",\n  \"test\": \"react-scripts test\",\n  \"eject\": \"react-scripts eject\"\n},\n\"eslintConfig\": {\n  \"extends\": \"react-app\"\n},\n\"browserslist\": {\n  \"production\": [\n    \">0.2%\",\n    \"not dead\",\n    \"not op_mini all\"\n  ],\n  \"development\": [\n    \"last 1 chrome version\",\n    \"last 1 firefox version\",\n    \"last 1 safari version\"\n  ]\n}\n}"
+  }
+]

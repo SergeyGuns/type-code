@@ -1,0 +1,11 @@
+.ContentPanelInput {
+  
+}
+
+.ContentPanelInput textarea {
+  background-color: transparent;
+  border: none;
+  outline: transparent;
+  color: rgb(204, 204, 204);
+  font-size:1rem;
+}
