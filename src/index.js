@@ -4,6 +4,7 @@ import { Provider } from "react-redux";
 import App from "./App";
 import LeftPanel from "./LeftPanel";
 import ContentPanel from "./ContentPanel";
+import KeyboardHelper from "./KeyboardHelper";
 import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 import store from "./reducers";
@@ -13,6 +14,7 @@ ReactDOM.render(
       <App>
         <LeftPanel />
         <ContentPanel />
+        <KeyboardHelper />
       </App>
     </Provider>
   </React.StrictMode>,

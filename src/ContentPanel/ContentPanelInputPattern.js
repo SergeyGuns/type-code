@@ -1,9 +1,9 @@
 import React from "react";
+import "./ContentPanelInputPattern.css";
 import { connect } from "react-redux";
-const ContentPanelInputPattern = ({ text }) => <code>{text}</code>;
+const ContentPanelInputPattern = ({ file }) =>
+  file ? <pre className="ContentPanelInputPattern">{file.body}</pre> : null;
 
-const masState = ({ app }) => ({
-  text: app.file ? app.file.body : null,
-});
+const mapState = ({ app }) => ({ file: app.activeFile });
 
-export default connect(masState, null)(ContentPanelInputPattern);
+export default connect(mapState, null)(ContentPanelInputPattern);

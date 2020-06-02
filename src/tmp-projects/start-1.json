@@ -8,6 +8,10 @@
         "body": "import React from \"react\""
       },
       {
+        "name": "s",
+        "body": "import React from \"react\""
+      },
+      {
         "name": "styles",
         "isOpen": false,
         "children": [{ "name": "main.css","body": ".app {}" }]
